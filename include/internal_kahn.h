@@ -66,7 +66,7 @@ import qualified Data.Reify.Graph as Reified
 import System.IO.Unsafe (unsafePerformIO)
 import Data.Data (Data)
 import Data.Typeable (Typeable)
-import GHC.Exts as Exts
+import GHC.Exts as Exts hiding (List)
 import Numeric.AD.Internal.Combinators
 import Numeric.AD.Internal.Identity
 import Numeric.AD.Jacobian
